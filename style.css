@@ -1,0 +1,109 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0%;
+    
+}
+
+body{
+    user-select: none;
+    background-color:#24252a;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+      background-image: linear-gradient(to bottom, #000000, #8658f3);
+      background-size: cover;
+      height: 100vh;
+
+}
+
+header {
+    
+    display: flex;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+
+.heading { 
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  font-size:clamp(50px,8vh,50px);
+  text-align: center;
+}
+
+.sub-heading {
+  color: rgb(150, 111, 255);
+  font-family: monospace;
+  margin: 10px;
+  text-align: center;
+  font-size:clamp(40px,5vh,45px);
+}
+
+.hero button {
+  background-color: #926bff; 
+  color: rgb(0, 0, 0); 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: monospace;
+  margin-bottom: 10px;
+  font-size:xx-large;
+  box-shadow:black;
+  
+}
+
+.hero button:hover {
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  transition: 0.15s;
+}
+.hero button:active {
+ background-color: rgb(162, 115, 250);
+
+}
+
+.main {
+  text-align: center;
+  align-items: center;
+  
+}
+
+.p{
+font-family: monospace;
+color: white;
+font-size:clamp(30px,5vh,35px);
+padding-top: 10px;
+}
+
+.about {
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-size: clamp(16px,3vh,30px);
+  font-family: monospace;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.about a {
+
+color: rgb(182, 151, 255);
+text-decoration: none;
+}
+
+.about a:hover {
+
+  color: rgb(76, 0, 255);
+  }
